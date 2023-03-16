@@ -1,0 +1,8 @@
+
+nav.navbar, #header-sticky {
+    border-bottom: 7px solid red;
+}
+
+#header-sticky {
+    border-left: none;
+}

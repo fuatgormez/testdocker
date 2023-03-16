@@ -1,0 +1,1 @@
+﻿{{$smarty_vars.data|default:'{"status":"error"}'}}

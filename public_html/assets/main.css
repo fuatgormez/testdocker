@@ -1,0 +1,183 @@
+﻿/* =====================================
+        General
+======================================== */
+
+body {
+    background: #F0F0F0;
+}
+
+.btn-secondary {
+    background: #EEEEEE;
+}
+
+.navbar .username {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 150px;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .navbar .username {
+        max-width: 300px;
+    }
+}
+
+/* =====================================
+        "Box Grid"-Layout
+======================================== */
+
+/* box shadows */
+
+.navbar, .content-box, .title-box {
+    box-shadow: 0 0 10px #BEBEBE;
+    transition: box-shadow 0.5s;
+}
+
+.content-box:hover, .title-box:hover, .navbar:hover {
+    box-shadow: 0 0 10px #888888;
+    transition: box-shadow 0.5s;
+}
+
+/* background & padding */
+
+.content-box {
+    background: white;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.title-box {
+    background: #292B2C;
+    border-left: 20px solid #505050;
+}
+
+/*@media (min-width: 576px) {
+    .title-box {
+        border-left: 20px solid red;
+    }
+}
+
+@media (min-width: 768px) {
+    .title-box {
+        border-left: 20px solid green;
+    }
+}
+
+@media (min-width: 992px) {
+    .title-box {
+        border-left: 20px solid blue;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title-box {
+        border-left: 20px solid orange;
+    }
+}*/
+
+.content-box .content-box-title {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 30px;
+}
+
+/* =====================================
+        Form elements
+======================================== */
+
+.form-control::placeholder {
+    color: #BBBBBB;
+    opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+    color: #BBBBBB;
+    opacity: 1;
+}
+
+.select2-selection--single {
+    border: 1px solid rgba(0,0,0,.15) !important;
+    border-radius: 0 .25rem .25rem 0 !important;
+    height: calc(2rem + 6px) !important;
+    padding: .25rem .25rem !important;
+}
+
+/* =====================================
+        Rechnungsmodul
+======================================== */
+
+.borderless {
+	border-width: 0 !important;
+}
+
+.custom-danger{
+    background-color:#f2dede !important;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-warning {
+    color: #fff;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.btn-dark:focus, .btn-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-dark.disabled, .btn-dark:disabled {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #1d2124;
+    border-color: #171a1d;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-dark {
+    color: #343a40;
+    background-color: transparent;
+    background-image: none;
+    border-color: #343a40;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-outline-dark:focus, .btn-outline-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-dark.disabled, .btn-outline-dark:disabled {
+    color: #343a40;
+    background-color: transparent;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active, .show > .btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
